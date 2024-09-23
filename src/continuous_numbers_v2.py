@@ -33,6 +33,8 @@ def remove_duplicates(dupe_list) -> list:
   return(list(dict.fromkeys(dupe_list)))
 
 def missing_list(list) -> list:
+  # set(range(list[0], list[-1]) creates a set of numbers between
+  # the lowest and highest values in the input list
   return sorted(set(range(list[0], list[-1])) - set(list))
   
 def main(input_list):
