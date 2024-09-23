@@ -12,7 +12,7 @@ NC = '\033[0m'
 
 # 1. take schema and input list and convert to dictionary
 # 2. convert dictionary to json object
-# 3. output json object to file with given filename.
+# 3. output json object to file with given filename
 # 4. report success back to user
 
 schema = ["name", "age", "location", "degree"]
