@@ -12,7 +12,6 @@ words = "Mary-Berry has to taken 6 humble to ingredients and elevated them to an
 # 2. create word frequency dictionary
 # 3. print out data in graph
 
-
 def remove_punctuation(words_list):
   for i in range(len(words_list)):
     words_list[i] = words_list[i].translate(str.maketrans('', '', string.punctuation))
@@ -49,8 +48,8 @@ def pad_word(word, to_length):
   return word
 
 def display(frequency_data, max_length): 
-  
   display = ""
+  
   for item in frequency_data:
     display += f"{pad_word(item, max_length)}: {"X" * frequency_data[item]} ({frequency_data[item]})\n"
   
@@ -61,7 +60,7 @@ def main(words):
   max_length = len(max(clean_words, key=len)) + 1 # include " "
   
   frequency = word_frequency(clean_words)
-  #print(frequency)
+
   print(display(frequency, max_length))
 
 
