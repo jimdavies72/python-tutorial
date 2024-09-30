@@ -25,7 +25,7 @@ This is the work I undertook as a result of a short online 'introduction to Pyth
   introduction to the python list data-structure.
 - list_to_json_output.py
 
-  program that accepts 2 lists: list a represents column header from a spreadsheet, list b represents the data that fits the columns in list a. the program takes these lists and converts them to JSON objects and outputs them to a file.
+  program that accepts 2 lists: list a represents column header from a spreadsheet, list b represents the data that fits the columns in list a. the program takes these lists and converts them to a JSON object and outputs it to a file.
 - loops.py
 
   introduction to while and for loops
@@ -35,4 +35,4 @@ This is the work I undertook as a result of a short online 'introduction to Pyth
 
   This hex stream can them be used as an input back into the program to be converted back into readable ASCII.
 - word_frequency.py
-- takes a string of words and outputs the frequency of each of the words used. punctuation ins removed and the words are converted into padded fixed length strings to create a more readable output on screeen.
+  takes a string of words and outputs the frequency of each of the words used. punctuation ins removed and the words are converted into padded fixed length strings to create a more readable output on screeen.
